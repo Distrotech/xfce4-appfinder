@@ -14,7 +14,7 @@ m4_define([xfce4_appfinder_version_major], [4])
 m4_define([xfce4_appfinder_version_minor], [10])
 m4_define([xfce4_appfinder_version_micro], [1])
 m4_define([xfce4_appfinder_version_nano],  []) dnl leave this empty to have no nano version
-m4_define([xfce4_appfinder_version_build], [38d64d3])
+m4_define([xfce4_appfinder_version_build], [be3db31])
 m4_define([xfce4_appfinder_version_tag],   [])
 m4_define([xfce4_appfinder_version], [xfce4_appfinder_version_major().xfce4_appfinder_version_minor().xfce4_appfinder_version_micro()ifelse(xfce4_appfinder_version_nano(), [], [], [.xfce4_appfinder_version_nano()])ifelse(xfce4_appfinder_version_tag(), [git], [xfce4_appfinder_version_tag()-xfce4_appfinder_version_build()], [xfce4_appfinder_version_tag()])])
 
